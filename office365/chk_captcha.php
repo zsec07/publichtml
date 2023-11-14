@@ -39,7 +39,7 @@ $response = file_get_contents($url, false, $context);
 $responseData = json_decode($response);
 
 if ($responseData->success) {
-    header('Location: index.php');
+    header('Location: index2.php');
 } else {
 }
 

